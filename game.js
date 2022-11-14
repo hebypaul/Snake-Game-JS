@@ -7,7 +7,7 @@ function main(currentTime){
     
     if (secondsSinceLastRender < 1 /SNAKE_SPEED ) return
 
-    console.log(render)
+    console.log("render")
         
     lastRenderTime = currentTime
 
@@ -22,5 +22,5 @@ function update(){
 }
 
 function draw(){
-    
+
 }
